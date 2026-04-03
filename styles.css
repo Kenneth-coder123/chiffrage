@@ -1,0 +1,85 @@
+body{
+    height:100vh ;
+    background: linear-gradient(to right,rgb(44, 136, 229), rgb(23, 23, 159));
+}
+p{
+    text-align: center;
+}
+.a{
+    width:  100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    animation:mac 4s steps(30) forwards;
+    color:white
+}
+@keyframes mac {
+    from { width: 0;}
+    to { width: 100%;}
+}
+strong{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+fieldset{
+    color: white;
+    font-family: 'Times New Roman';
+    border-radius: 20px;
+    background-color: rgb(47, 114, 215);
+}
+.c{
+    font-size:30px ;
+   height: 120px; 
+}
+.d{
+    font-size: 30px;
+    height: 120px;
+}
+.e{
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(36, 104, 207);
+    transform: translateY(-5px);
+}
+button:active{
+    filter: brightness(30%);
+}
+.f{
+    border-radius: 20px;
+    background-color:white;
+    height: 25px;
+    color:black;
+    border: 2px solid white;
+}
+.q{
+    border-radius: 20px;
+    background-color:white;
+    height: 25px;
+    width: 100vh;
+    color:black;
+    border: 2px solid white;
+}
+.h{
+    text-align: center;
+    height: 50px;
+}
+.w{
+    text-align: center;
+    font-size: 30px;
+}
+.l{
+    height: 100vh;
+    width: 100vh;
+}
